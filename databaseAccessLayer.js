@@ -19,7 +19,7 @@ async function getAllUsers() {
 	}
 }
 
-const passwordPepper = "SeCretPeppa4MySal+";
+const passwordPepper = "Meow4Meows";
 
 async function addUser(postData) {
 	let sqlInsertSalt = `
