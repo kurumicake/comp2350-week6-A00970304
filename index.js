@@ -26,7 +26,7 @@ async function printMySQLVersion() {
 		return true;
 	}
 	catch(err) {
-		console.log("Error getting version from MySQL");
+		console.log("Error getting version from MySQL", err);
 		return false;
 	}
 }
